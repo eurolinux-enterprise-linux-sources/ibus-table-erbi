@@ -1,6 +1,6 @@
 Name:       ibus-table-erbi
 Version:    1.2.0.20090901
-Release:    6%{?dist}
+Release:    8%{?dist}
 
 Summary:           Erbi input method tables for IBus-Table
 Summary(zh_TW):    IBus-Table 二筆碼表
@@ -41,26 +41,33 @@ export IBUS_TABLE_CREATEDB="%{_bindir}/ibus-table-createdb --no-create-index"
 
 %install
 %__rm -rf %{buildroot}
-%__make DESTDIR=%{buildroot} NO_INDEX=true install INSTALL="install -p"
+%__make DESTDIR=%{buildroot} NO_INDEX=true install INSTALL="install"
 
 %clean
 %__rm -rf %{buildroot}
 
 %post
 cd %{_datadir}/ibus-table/tables/
-pwd
 %{_bindir}/ibus-table-createdb -i -n erbi.db
 %{_bindir}/ibus-table-createdb -i -n erbi_qs.db
 
 %files
 %defattr(-,root,root,-)
 %doc AUTHORS ChangeLog COPYING README
-%{_datadir}/ibus-table/tables/erbi.db
-%{_datadir}/ibus-table/tables/erbi_qs.db
+%verify(not md5 size mtime) %{_datadir}/ibus-table/tables/erbi.db
+%verify(not md5 size mtime) %{_datadir}/ibus-table/tables/erbi_qs.db
 %{_datadir}/ibus-table/icons/erbi.png
 %{_datadir}/ibus-table/icons/erbi-qs.svg
 
 %changelog
+* Thu Aug 18 2011 Ding-Yi Chen <dchen at redhat.com> - 1.2.0.20090901-8
+- Resolves: rhbz#729906
+- Surpress rpm -V warning
+
+* Wed Jul 13 2011 Ding-Yi Chen <dchen at redhat.com> - 1.2.0.20090901-7
+- Resolves: rhbz#712805
+- Removed unwanted pwd in section post.
+
 * Thu Feb 25 2010 Caius 'kaio' Chance <cchance at redhat.com> - 1.2.0.20090901-6.el6
 - Resolves: rhbz#567749
 - Fix changelog.
