@@ -1,0 +1,133 @@
+commit 730974f5dc8011792263ba4af92903f167d10d0d
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Tue Sep 1 10:37:29 2009 +1000
+
+    Fixed erbi.txt format.
+
+commit 0678750e9a6879b5633911fa2168e2bc39131726
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Mon Aug 31 13:27:40 2009 +1000
+
+    Fixed typo of {icons,tables}/Makefile.am.
+
+commit fd2072c11ed7ed4687430a42aaee4abfa4e60852
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Mon Aug 31 11:13:55 2009 +1000
+
+    Modified to manual datestamp.
+
+commit edb9a67558e87cb03f13a3201ccb12864c2c0284
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Mon Aug 31 11:11:03 2009 +1000
+
+    Fixed typo of {icons,tables}/Makefile.am.
+
+commit dd7522e033841f088c5389b6fa01bbadef26e03b
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Fri Aug 28 13:29:16 2009 +1000
+
+    Fixed typo {tables,icons}/Makefile.am.
+
+commit 272cb81eaf0f43ab92376e7d2cbf4be7d1aa1511
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Fri Aug 28 12:28:22 2009 +1000
+
+    Typo on configure.ac.
+
+commit 4e13423b712516461f2e9f84c06d425ff8e5dd04
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Fri Aug 28 12:26:31 2009 +1000
+
+    Fixed parameter messed up.
+
+commit 5b0eee1f75328ef39175e8d701c59f26d9ee164b
+Author: Caius 'kaio' Chance <cchance@sashimi.bne.redhat.com>
+Date:   Fri Aug 28 12:23:08 2009 +1000
+
+    Added ErBi table.
+    Removed unwant files.
+    Updated docu and Makefile.am.
+
+commit b0ada60e88e1753857917e49aacdceea0975dad5
+Author: cchance <cchance@localhost.localdomain>
+Date:   Fri Jul 17 16:08:57 2009 +1000
+
+    ChangeLog
+
+commit 9dfd8363d29d11aa82f15b5618e254bd829928b7
+Author: cchance <cchance@localhost.localdomain>
+Date:   Fri Jul 17 16:08:31 2009 +1000
+
+    Bump version number to match IBus 1.2 and rebuilt.
+
+commit c40c9d0f127cee4ef444380888548686223795e0
+Author: cchance <cchance@dhcp-0-183.bne.redhat.com>
+Date:   Tue Apr 7 14:29:16 2009 +1000
+
+    corrected license copy (COPYING)
+
+commit 600125b4f105eb3264748e3684daffda238d4eb7
+Author: cchance <cchance@dhcp-0-183.bne.redhat.com>
+Date:   Fri Apr 3 16:56:36 2009 +1000
+
+    added contents to AUTHORS and ChangeLog
+
+commit 63a96d876000ccb65dbc092b63cd069a290fcac1
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Feb 19 21:42:30 2009 +0800
+
+    fix Makefile.am error
+
+commit d2f7ba74983a7459e52503109c85aec6165e3cdf
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Feb 19 00:38:08 2009 +0800
+
+    fix configure.ac
+
+commit 03ae7a6a1cc9ba8bac7383b4f50f985ffda6cd44
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Feb 19 00:16:59 2009 +0800
+
+    update configure.ac
+
+commit 7d88e7d6f1efd0f98d21197bd6401cf88e6cfb3d
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Wed Feb 18 22:40:10 2009 +0800
+
+    update to ibus-table-1
+
+commit 8f73a210abd96a767228cef87cb6e489ab868882
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Sat Dec 6 14:47:17 2008 +0800
+
+    fix typo
+
+commit f836e84c07dfb3fb858ef96acdeff412adccbfe4
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Fri Dec 5 15:26:39 2008 +0800
+
+    use pkg-config to check ibus-table and ibus-table-extraphrase version
+
+commit e1ee140897082cd1a7005ed7e2d7ecb4a0dbd416
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Dec 4 21:53:41 2008 +0800
+
+    update README
+
+commit 2b7729bdfada85c229782cdad384c8bbd10c9343
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Dec 4 21:51:49 2008 +0800
+
+    add COPYING file
+
+commit d54f09fba655a3c89cb3ac7dc38d2b5b232a0850
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Dec 4 20:20:02 2008 +0800
+
+    use pkg-config to find extra_phrase
+
+commit bc21e09f56fcc81e5bea0479acea2c81414c0ae3
+Author: 余钰炜 <acevery@gmail.com>
+Date:   Thu Dec 4 15:05:33 2008 +0800
+
+    init repository

@@ -1,0 +1,10 @@
+Requirements:
+
+    You need to install ibus-table first.
+
+Introduction:
+    
+    ibus-table-cangjie provide Erbi and Erbi (Qin Sung) input method on IBus 
+    Table under IBus framework.
+
+    Erbi and Erbi (Qin Sung) tables are released under GPLv2+.
